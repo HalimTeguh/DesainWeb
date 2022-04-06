@@ -13,3 +13,19 @@
 .Link:visited{
     color: greenyellow;
 }
+
+.Link{
+    font-size: 20pt;
+}
+
+.Link:hover{
+    color: red;
+}
+
+.Link:link{
+   color: blue; 
+}
+
+.Link:visited{
+    color: greenyellow;
+}
