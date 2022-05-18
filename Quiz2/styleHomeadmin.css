@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E0C1A5;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    height: auto;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+}
+
+.header{
+    background: rgba(0, 0, 0, 0.7) url("img/camera.jpg");
+    background-size:  100%;
+    background-blend-mode: darken;
+    text-align: left;
+}
+
+.header table h3{
+    padding-right: 70px;
+    font-size: 20px;
+    text-align: right;
+    color: #f4f4f4;
+    font-weight: 100px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+a{
+  text-decoration: none;
+}
+
+button{
+    border-radius: 20px;
+}
+
+.isiatas button{
+    width: 120px;
+
+}
+
+.isitable button{
+    width: 80px;
+    margin: 5px;
+
+
+}
+
+.detail{
+    background-color: #6D9891;
+}
+
+.edit{
+    background-color: #AFAC9B;
+}
+
+.hapus{
+    background-color: #F69F83;
+}
+
+.update{
+    background-color: #6D9891;
+    
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 3em;
+    text-align: center;
+    color: #000000;
+    font-weight: 100;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .header h1{
+    margin: 0;
+    padding: 20px;
+    padding-right: 400px;
+    font-size: 2em;
+    text-align: left;
+    color: #f4f4f4;
+    font-weight:bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header td{
+    width: max-content;
+}
+
+.tambah{
+    float: right;
+    display: block;
+}
+
+a button{
+    padding: 5px;
+    background: #AFAC9B;
+    color: white;
+    border: 0;
+    cursor: pointer;
+  }
+
+  input[type="text"], input[type="email"], input[type="password"] {
+    font-size: 0.9em;
+    color: #fff;
+    font-weight: 100;
+    width: 300px;
+    border: none;
+    padding: 0.4em;
+    padding-left: 0.8em;
+    border: solid 1px #E0C1A5;
+    background-repeat: no-repeat;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+  }
+
+  input[type="submit"] {
+    font-size: .9em;
+    background: #6D9891;
+    color: #f4f4f4;
+    cursor: pointer;
+    padding: 0.4em;
+    -webkit-appearance: none;
+    width: 100px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    border: 0;
+  }
+
+textarea{
+    font-size: 0.9em;
+    color: #fff;
+    font-weight: 100;
+    width: 90%;
+    border: none;
+    padding: 0.4em;
+    padding-left: 0.8em;
+    border: solid 1px #E0C1A5;
+    background-repeat: no-repeat;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    text-align: justify;
+    resize:none;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    
+}
+
+.isi {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.isitable th, .isitable td{
+    text-align: left;
+    padding: 16px;
+    padding-left: 90px;
+    text-align: justify;
+}
+
+
+.isiatas{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 5px;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+}
+
+.isiatas table{
+    margin-left: 30px;
+    width: 88%;
+}
+
+.isiatas h3{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.containerheadertable{
+    align-items: center;
+    margin-left: 40px;
+}
+
+.containerheadertable table{
+    border-radius: 20px;
+    background-color: #E0C1A5;
+    width: 95%;
+    padding-left: 30px;
+}
+
+.headertable th{
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+.footer{
+    background: rgba(0, 0, 0, 0.7) url("img/sunset.jpg");
+    background-size:  100%;
+    background-blend-mode: darken;
+    text-align: center;
+    color: #f4f4f4;
+    padding: 5px;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+}

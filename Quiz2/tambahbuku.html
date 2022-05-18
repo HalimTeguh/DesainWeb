@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="styleHomeadmin.css" />
+</head>
+
+<body>
+    <div class="header">
+        <table>
+            <th>
+            <td>
+                <h1>TOKO BUKU URELLY</h1>
+            </td>
+            <td>
+                <a href="">
+                    <h3>TAMBAH</h3>
+                </a>
+            </td>
+            <td>
+                <a href="logout.php">
+                    <h3>LOGOUT</h3>
+                </a>
+            </td>
+            </th>
+        </table>
+    </div>
+
+    <div class="isi">
+        <div class="containerheadertable">
+            <b>TAMBAH BUKU</b>
+        </div>
+        <form action="insertProcess.php" method="get">
+                <table class="isitable">
+                    <tr>
+                        <td>ID BUKU</td>
+                        <td> <input type="text" name="id_buku" placeholder="ID Buku"> </td>
+                    </tr>
+                    <tr>
+                        <td>JUDUL BUKU</td>
+                        <td><input type="text" name="judul" placeholder="Judul Buku"></td>
+                    </tr>
+                    <tr>
+                        <td>PENGARANG</td>
+                        <td><input type="text" name="pengarang" placeholder="Pengarang Buku"></td>
+                    </tr>
+                    <tr>
+                        <td>PENERBIT</td>
+                        <td><input type="text" name="penerbit" placeholder="Penerbit Buku"></td>
+                    </tr>
+                    <tr>
+                        <td>DESKRIPSI</td>
+                        <td>
+                            <textarea name="deskripsi" cols="50" rows="10" placeholder="deskripsi Buku"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="homeadmin.php"><button class="hapus">Back</button></a>
+                        </td>
+                        <td><input type="submit" name="send" value="Tambah"></td>
+                    </tr>
+                </table>
+        </form>
+        
+    </div>
+
+    <div class="footer">
+        <p>© 2022 Urelly Login Form. All rights reserved</p>
+    </div>
+</body>
+
+</html>
