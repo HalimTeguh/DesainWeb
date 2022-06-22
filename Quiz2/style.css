@@ -52,6 +52,7 @@ h1 {
     margin: 3em auto;
     background: rgba(0, 0, 0, 0.18);
     background-size: cover;
+    
   }
   
   .agileits-top {
@@ -108,6 +109,22 @@ a{
   text-decoration: none;
 }
 
+button{
+  border-radius: 20px;
+  margin: auto;
+}
+
+.detail{
+  background-color: #FFFFFF;
+  width: 200px;
+  height: 30px;
+  font-weight: bold;
+  border: 0;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
 
   input[type="submit"] {
     font-size: .9em;
@@ -156,6 +173,8 @@ a{
     -moz-transition: .5s all;
     transition: .5s all;
     font-weight: 400;
+    text-align: center;
+
   }
 
   .agileits-top p a:hover {
